@@ -1,0 +1,19 @@
+.row{
+  --bs-gutter-x: 0rem!important;
+}
+.row.footer{
+align-content: flex-start;
+text-align: center;
+}
+.fillerone{
+  height: 3vw;
+}
+.fillertwo{
+  height: 5vw;
+}
+.fillerthree{
+  height: 7vw;
+}
+.fillerfour{
+  height: 10vw;
+}

@@ -1,0 +1,89 @@
+/* NavBar */
+.navbarProp{
+background-color: black;
+height: max(80%, 100px);
+text-align: center;
+vertical-align: bottom;
+}
+.navbarButton{
+color: white;
+font-size: max(5vw, 45px);
+font-family: acier-bat-noir,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+body{
+  background-color: white;
+}
+
+.noScroll{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.noScroll::-webkit-scrollbar {
+  display: none;
+}
+.footer{
+  background-color: black;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerSemiHeader{
+font-family: acier-bat-gris, sans-serif;
+  font-style: normal;
+  color: grey;
+  font-size: max(4.25vw, 65px);
+}
+.footerOption{
+font-family: acier-bat-solid, sans-serif;
+font-weight: 400;
+font-style: normal;
+  background-color: black;
+
+}
+.footerOptionText{
+text-decoration: none;
+color: grey;
+text-underline-offset: var(--offset, 0.2em);
+transition: --offset 800ms, text-decoration-color 800ms;
+padding-left: 0.5vw;
+padding-right: 0.5vw;
+font-size: max(1vw, 20px);
+  background-color: black;
+}
+.footerOptionText:hover{
+text-decoration: none;
+text-decoration: underline;
+color: grey;
+}
+
+.footerOptionText:hover,
+.footerOptionText:focus {
+  --offset: 0.4em;
+  text-decoration-color: white;
+}
+  .footerOptionText:hover,
+  .footerOptionText:focus {
+    text-underline-offset: 0.4em;
+  }
+.footerOptionList{
+  height: max(65%, 130px);
+}
+.secondNav{
+  background-color: black;
+  height: max(2vw, 45px);
+}
+.secondNavTxt{
+color: grey;
+font-family: articulat-cf, sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: max(1vw, 15px);
+}
+.secondNavTxt:hover{
+  text-decoration: none;
+  color: white;
+}
