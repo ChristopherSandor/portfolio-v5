@@ -1,0 +1,38 @@
+.leftHalf{
+  background-color: #FFC229;
+   height: max(80vw, 650px);
+}
+.rightHalf{
+  background-color: #f5f5f5;
+   height: max(80vw, 650px);
+}
+.bigBody{
+  height: max(80vw, 650px);
+  --bs-gutter-x: 0rem!important;
+}
+.headerAbout{
+  text-align: center;
+  font-style: normal;
+}
+.headerAboutTxt{
+  font-weight: 300;
+font-family: acier-bat-gris, sans-serif;
+  color: #f5f5f5;
+  font-size: max(5vw, 40px);
+}
+#headerRightAboutTxt{
+  color: #111111;
+}
+.aboutPhoto{
+  width: max(20vw, 150px);
+  border-style: dashed;
+  border-color: white;
+  border-width: 8px;
+}
+.aboutTxt{
+font-size: max(2.25vw, 14px);
+font-family: tuna, sans-serif;
+font-style: normal;
+font-weight: 300;
+
+}

@@ -1,0 +1,61 @@
+.worksHeader{
+   font-weight: 300;
+font-family: acier-bat-gris, sans-serif;
+  color: #111111;
+  font-size: max(5vw, 40px);
+}
+.worksHeaderWrapper{
+    text-align: center;
+  font-style: normal;
+}
+.headerPoints{
+font-family: tuna, sans-serif;
+font-style: normal;
+font-weight: 300;
+color: #111111;
+font-size: max(2vw, 30px);
+    background-color: #FFC229;
+}
+
+.worksIcon{
+  width: max(20vw, 65px);
+   display: block;
+    border-style: dashed;
+  border-color: #111111;
+  border-width: 4px;
+      transition: 0.5s;
+}
+.worksIcon:hover{
+  width: max(21vw, 75px);
+}
+.worksIconWrapper{
+  padding: 20px;
+}
+.bodyRow{
+  background-color: #FFC229;
+}
+.bodyWrapper{
+    --bs-gutter-x: 0rem!important;
+}
+.IMG-Photos{
+  height: max(22vw, 80px);
+}
+.descriptionTxt{
+  font-family: tuna, sans-serif;
+font-style: normal;
+font-weight: 300;
+  color: #111111;
+  font-size: max(1.5vw, 20px);
+}
+.borderTopping{
+  border-top-style: dashed;
+    border-color: #111111;
+}
+.betweenborder{
+  height: 3.5vw;
+  background-color: white;
+}
+.bottomBorder{
+    border-bottom-style: dashed;
+  border-color: black;
+}

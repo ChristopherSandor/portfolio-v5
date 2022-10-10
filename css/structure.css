@@ -6,7 +6,7 @@ align-content: flex-start;
 text-align: center;
 }
 .fillerone{
-  height: 3vw;
+  height: max(2vh, 20px);
 }
 .fillertwo{
   height: 5vw;
@@ -16,4 +16,60 @@ text-align: center;
 }
 .fillerfour{
   height: 10vw;
+}
+.openingHome{
+  height: max(41.5vw, 500px);
+}
+.border-right-img{
+  width: max(35vw, 230px);
+padding-top: max(35vh, 300px);
+}
+.homeIcon{
+  height: max(11.5vw, 110px);
+  width: max(11.5vw, 110px);
+  display: block;
+  margin: auto; 
+  padding: 10px;
+    transition: 0.3s;
+}
+.homeIcon:hover{
+  height: max(12.5vw, 125px);
+  width: max(12.5vw, 125px);
+  padding: 5px;
+}
+
+.homeIconRow{
+ height: max(14vw, 150px);
+}
+
+.colIcons{
+   width: max(14vw, 170px);
+}
+.iconWrap{
+  padding: 10px;
+}
+.titleWrappers{
+  float: right;
+}
+.socialIcon{
+  height: max(4vw, 55px);
+  width: max(4vw, 55px);
+  display: block;
+  margin: auto; 
+  padding: 10px;
+    transition: 0.3s;
+}
+.socialIcon:hover{
+  height: max(4.5vw, 65px);
+  width: max(4.5vw, 65px);
+  padding: 5px;
+}
+#leftSocial{
+  float: right;
+}
+#rightSocial{
+  float: left;
+}
+.center-social-bottom{
+  width: max(5vw; 70px);
 }

@@ -1,16 +1,19 @@
 /* NavBar */
 .navbarProp{
-background-color: black;
+background-color: #111111;
 height: max(80%, 100px);
 text-align: center;
 vertical-align: bottom;
 }
 .navbarButton{
 color: white;
-font-size: max(5vw, 45px);
-font-family: acier-bat-noir,sans-serif;
+font-size: max(4.75vw, 43px);
+font-family: acier-bat-solid, sans-serif;
 font-weight: 400;
 font-style: normal;
+
+
+
 }
 body{
   background-color: white;
@@ -25,7 +28,7 @@ scrollbar-width: none;  /* Firefox */
   display: none;
 }
 .footer{
-  background-color: black;
+  background-color: #111111;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -41,7 +44,7 @@ font-family: acier-bat-gris, sans-serif;
 font-family: acier-bat-solid, sans-serif;
 font-weight: 400;
 font-style: normal;
-  background-color: black;
+  background-color: #111111;
 
 }
 .footerOptionText{
@@ -52,13 +55,32 @@ transition: --offset 800ms, text-decoration-color 800ms;
 padding-left: 0.5vw;
 padding-right: 0.5vw;
 font-size: max(1vw, 20px);
-  background-color: black;
+  background-color: #111111;
 }
 .footerOptionText:hover{
 text-decoration: none;
 text-decoration: underline;
 color: grey;
 }
+
+.footerOptionText:link {
+color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footerOptionText:visited {
+color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footerOptionText:active {
+color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 
 .footerOptionText:hover,
 .footerOptionText:focus {
@@ -73,7 +95,7 @@ color: grey;
   height: max(65%, 130px);
 }
 .secondNav{
-  background-color: black;
+  background-color: #111111;
   height: max(2vw, 45px);
 }
 .secondNavTxt{
@@ -86,4 +108,87 @@ font-size: max(1vw, 15px);
 .secondNavTxt:hover{
   text-decoration: none;
   color: white;
+}
+.mainIMG{
+  height: max(41.5vw, 500px);
+  float: right;
+}
+.imgDiv{
+    vertical-align: bottom;
+    width: max(41.5vw, 500px);
+  float: right;
+}
+.frontText{
+  font-size: 5vw;
+  z-index: 1;
+    position: absolute;
+
+}
+.openingBackGround{
+ background-color: #F5af00;
+}
+.openingText{
+font-style: normal;
+font-weight: 300;
+font-family: acier-bat-gris, sans-serif;
+  color: #f5f5f5;
+  font-size: max(7vw, 37px);
+  text-decoration: none!important;
+}
+.openingText:hover{
+    color: #f5f5f5;
+    text-decoration: none!important;
+}
+.openingHome{
+   height: max(50vh, 800px);
+}
+
+.homePhotos{
+  height: max(55vw, 400px);
+    background-color: #111111;
+}
+.iconsHeadingText{
+  color: black;
+  text-align: center;
+font-family: rig-solid-bold-fill;
+font-style: normal;
+font-weight: 700;
+font-size: max(7vw, 45px);
+   bottom: 0;
+}
+.workExpHeadingText{
+  color: black;
+  text-align: center;
+font-family: rig-solid-bold-fill;
+font-style: normal;
+font-weight: 700;
+font-size: max(7vw, 40px);
+   bottom: 0;
+}
+.workExpBody{
+  height: max(41vw, 735px);
+  background-color: #f5f5f5;
+}
+.workNameTitle{
+  font-family: tuna, sans-serif;
+font-style: normal;
+  color: black;
+  font-size: max(2vw, 17px);
+float: right;
+}
+.workNameTitle2{
+    font-family: tuna, sans-serif;
+font-style: normal;
+  color: grey;
+  font-size: max(1vw, 12px);
+float: right;
+}
+.workbodyText{
+  font-family: tuna, sans-serif;
+   color: black;
+  opacity: 80%;
+   font-size: max(1.25vw, 16px);
+}
+.socialWrap{
+  padding: 10px;
 }
