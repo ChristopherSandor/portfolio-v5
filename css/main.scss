@@ -1,0 +1,216 @@
+// Variables START
+$offWhite: #f5f5f5;
+$offBlack: #111111;
+$offWhite2: #c9c9c9;
+// Variables END
+
+.openingBackGround{
+    background-color: $offWhite;
+}
+
+
+// START FOR NAVBAR
+.navbarProp{
+    background-color: $offBlack;
+    height: max(80%, 100px);
+    text-align: center;
+    vertical-align: bottom;
+}
+.navbarButton{
+    color: $offWhite;
+    font-size: max(4.75vw, 43px);
+    font-family: acier-bat-solid, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+// END OF NAVBAR
+
+
+
+// START FOR NO SCROLL
+.noScroll{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+.noScroll::-webkit-scrollbar {
+display: none;
+}
+// END OF NO SCROLL
+
+
+
+// FOR FOOTER ACROSS ALL PAGES START
+.footer{
+ background-color: #111111;
+left: 0;
+bottom: 0;
+width: 100%;
+}       
+.footerSemiHeader{
+font-family: acier-bat-gris, sans-serif;
+font-style: normal;
+color: grey;
+font-size: max(4.25vw, 65px);
+}
+.footerOption{
+font-family: acier-bat-solid, sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color: #111111;
+}
+.footerOptionText{
+text-decoration: none;
+color: grey;
+text-underline-offset: var(--offset, 0.2em);
+transition: --offset 800ms, text-decoration-color 800ms;
+padding-left: 0.5vw;
+padding-right: 0.5vw;
+font-size: max(1vw, 20px);
+background-color: #111111;
+}
+.footerOptionText:hover{
+text-decoration: none;
+text-decoration: underline;
+color: grey;
+}
+.footerOptionText:link {
+color: grey;
+background-color: transparent;
+text-decoration: none;
+}
+.footerOptionText:visited {
+color: grey;
+background-color: transparent;
+text-decoration: none;
+}
+.footerOptionText:active {
+color: grey;
+background-color: transparent;
+text-decoration: underline;
+}
+.footerOptionText:hover{
+.footerOptionText:focus{
+--offset: 0.4em;
+text-decoration-color: white;
+}
+}
+.footerOptionText:hover{
+.footerOptionText:focus {
+text-underline-offset: 0.4em;
+}
+}
+.footerOptionList{
+height: max(65%, 130px);
+}
+// END OF FOOTER 
+
+
+
+// SECOND NAVBAR WITH OPTIONS START
+.secondNav{
+background-color: #111111;
+height: max(2.5vw, 50px);
+}
+.secondNavTxt{
+color: grey;
+font-family: articulat-cf, sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: max(1.25vw, 20px);
+}
+.secondNavTxt:hover{
+text-decoration: none;
+color: white;
+}
+// END OF SECOND NAVBAR WITH OPTIONS START
+
+
+
+// MAIN SCREEN START
+.mainIMG{
+height: max(41.5vw, 500px);
+float: right;
+vertical-align: bottom;
+}
+.imgDiv{
+vertical-align: bottom;
+float: right;
+}
+.openingText{
+font-style: normal;
+font-weight: 300;
+font-family: acier-bat-gris, sans-serif;
+color: #f5f5f5;
+font-size: max(7vw, 37px);
+text-decoration: none!important;
+}
+.openingText:hover{
+color: #f5f5f5;
+text-decoration: none!important;
+}
+.openingHome{
+ height: max(50vh, 800px);
+}
+#inside{
+    height: 10em;
+    font-size: 5vw;
+    z-index: 1;
+}
+
+// END OF MAIN SCREEN
+
+
+
+// Home Screen Icons START
+.homePhotos{
+height: max(56vw, 300px);
+background-color: #111111;
+}
+.iconsHeadingText{
+color: $offWhite2;
+text-align: center;
+font-family: rig-solid-bold-fill;
+font-style: normal;
+font-weight: 700;
+font-size: max(7vw, 45px);
+bottom: 0;
+}
+// Home Screen Icons END
+
+
+
+// JOB EXP. START
+.workExpHeadingText{
+color: black;
+text-align: center;
+font-family: rig-solid-bold-fill;
+font-style: normal;
+font-weight: 700;
+font-size: max(7vw, 40px);
+bottom: 0;
+}
+.workExpBody{
+height: max(41vw, 735px);
+background-color: #f5f5f5;
+}
+.workNameTitle{
+font-family: tuna, sans-serif;
+font-style: normal;
+color: black;
+font-size: max(2vw, 17px);
+float: right;
+}
+.workNameTitle2{
+font-family: tuna, sans-serif;
+font-style: normal;
+color: grey;
+font-size: max(1vw, 12px);
+float: right;
+}
+.workbodyText{
+font-family: tuna, sans-serif;
+color: black;
+opacity: 80%;
+font-size: max(1.25vw, 16px);
+}
+// END OF WORK EXP.

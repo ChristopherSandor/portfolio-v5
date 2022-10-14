@@ -1,13 +1,13 @@
 .leftHalf{
   background-color: #FFC229;
-   height: max(80vw, 650px);
+   height: max(100vw, 700px);
 }
 .rightHalf{
   background-color: #f5f5f5;
-   height: max(80vw, 650px);
+   height: max(100vw, 700px);;
 }
 .bigBody{
-  height: max(80vw, 650px);
+  height: max(100vw, 700px);;
   --bs-gutter-x: 0rem!important;
 }
 .headerAbout{
@@ -24,13 +24,13 @@ font-family: acier-bat-gris, sans-serif;
   color: #111111;
 }
 .aboutPhoto{
-  width: max(20vw, 150px);
+  width: max(25vw, 200px);
   border-style: dashed;
   border-color: white;
   border-width: 8px;
 }
 .aboutTxt{
-font-size: max(2.25vw, 14px);
+font-size: max(2.5vw, 14px);
 font-family: tuna, sans-serif;
 font-style: normal;
 font-weight: 300;
