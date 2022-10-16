@@ -1,61 +1,52 @@
+
+
 .worksHeader{
    font-weight: 300;
 font-family: acier-bat-gris, sans-serif;
   color: #111111;
-  font-size: max(5vw, 40px);
+  font-size: 5vw;
 }
 .worksHeaderWrapper{
     text-align: center;
   font-style: normal;
 }
 .headerPoints{
-font-family: tuna, sans-serif;
+  font-family: articulat-heavy-cf, sans-serif;
 font-style: normal;
 font-weight: 300;
-color: #111111;
-font-size: max(2vw, 30px);
-    background-color: #FFC229;
+color: #f5f5f5;
+font-size: max(2vw, 20px);
 }
 
 .worksIcon{
-  width: max(20vw, 65px);
+  width: max(19vw, 35px);
    display: block;
     border-style: dashed;
-  border-color: #111111;
-  border-width: 4px;
+  border-color: #f5f5f5;
+  border-width: 2px;
       transition: 0.5s;
 }
 .worksIcon:hover{
-  width: max(21vw, 75px);
+  width: max(20vw, 50px);
 }
 .worksIconWrapper{
-  padding: 20px;
-}
-.bodyRow{
-  background-color: #FFC229;
+  padding: 15px;
 }
 .bodyWrapper{
     --bs-gutter-x: 0rem!important;
 }
 .IMG-Photos{
-  height: max(22vw, 80px);
+  height: max(22vw, 70px);
 }
 .descriptionTxt{
-  font-family: tuna, sans-serif;
+  font-family: articulat-cf, sans-serif;
 font-style: normal;
 font-weight: 300;
-  color: #111111;
-  font-size: max(1.5vw, 20px);
+  color: #c9c9c9;
+  font-size: max(1.5vw, 15px);
 }
-.borderTopping{
-  border-top-style: dashed;
-    border-color: #111111;
-}
-.betweenborder{
-  height: 3.5vw;
-  background-color: white;
-}
-.bottomBorder{
-    border-bottom-style: dashed;
-  border-color: black;
+.longBodyWrapping{
+  border-radius: 15px;
+  border: 10px;
+  background-color: #111111;
 }
