@@ -55,3 +55,7 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
 
+    // MODAL
+    $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus');
+    });

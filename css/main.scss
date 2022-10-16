@@ -2,6 +2,7 @@
 $offWhite: #f5f5f5;
 $offBlack: #111111;
 $offWhite2: #c9c9c9;
+$grey: grey;
 // Variables END
 
 .openingBackGround{
@@ -18,7 +19,7 @@ $offWhite2: #c9c9c9;
 }
 .navbarButton{
     color: $offWhite;
-    font-size: max(4.75vw, 43px);
+    font-size: max(4.75vw, 40px);
     font-family: acier-bat-solid, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -46,11 +47,17 @@ left: 0;
 bottom: 0;
 width: 100%;
 }       
-.footerSemiHeader{
-font-family: acier-bat-gris, sans-serif;
-font-style: normal;
-color: grey;
-font-size: max(4.25vw, 65px);
+#footerspace{
+    height: max(3.5vw, 50px);
+    
+}
+.footerIcons{
+    height: max(1.5vw, 30px);
+    width: max(1.5vw, 30px);
+}
+.iconSpacingFooter{
+    padding-left: .25vw;
+    padding-right: .25vw;
 }
 .footerOption{
 font-family: acier-bat-solid, sans-serif;
@@ -63,9 +70,9 @@ text-decoration: none;
 color: grey;
 text-underline-offset: var(--offset, 0.2em);
 transition: --offset 800ms, text-decoration-color 800ms;
-padding-left: 0.5vw;
-padding-right: 0.5vw;
-font-size: max(1vw, 20px);
+padding-left: 1vw;
+padding-right: 1vw;
+font-size: max(1vw, 15px);
 background-color: #111111;
 }
 .footerOptionText:hover{
@@ -116,7 +123,7 @@ color: grey;
 font-family: articulat-cf, sans-serif;
 font-style: normal;
 font-weight: 100;
-font-size: max(1.25vw, 20px);
+font-size: max(1.25vw, 15px);
 }
 .secondNavTxt:hover{
 text-decoration: none;
@@ -163,17 +170,33 @@ text-decoration: none!important;
 
 // Home Screen Icons START
 .homePhotos{
-height: max(56vw, 300px);
+height: max(58vw, 375px);
 background-color: #111111;
 }
 .iconsHeadingText{
-color: $offWhite2;
+color: white;
 text-align: center;
-font-family: rig-solid-bold-fill;
+font-family: acier-bat-outline, sans-serif;
 font-style: normal;
-font-weight: 700;
-font-size: max(7vw, 45px);
+font-weight: 400;
+font-size: max(7vw, 40px);
 bottom: 0;
+}
+.bottomText{
+text-align: center; 
+color: $offWhite2;
+font-size: max(1vw, 20px);
+font-family: depot-new-web;
+font-weight: 100;
+font-style: normal;
+transition: 1s;
+}
+.bottomText:hover{
+    text-decoration: underline;
+}
+.bottomTextKeepUp{
+    height: max(3vw, 50px);
+    background-color: $offBlack;
 }
 // Home Screen Icons END
 
@@ -183,34 +206,47 @@ bottom: 0;
 .workExpHeadingText{
 color: black;
 text-align: center;
-font-family: rig-solid-bold-fill;
+font-family: acier-bat-solid, sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: max(7vw, 40px);
+font-size: max(7vw, 35px);
 bottom: 0;
 }
 .workExpBody{
-height: max(41vw, 735px);
+height: max(52vw, 800px);
 background-color: #f5f5f5;
 }
 .workNameTitle{
-font-family: tuna, sans-serif;
+font-family: articulat-cf, sans-serif;
 font-style: normal;
 color: black;
-font-size: max(2vw, 17px);
+font-size: max(2vw, 12px);
 float: right;
 }
 .workNameTitle2{
-font-family: tuna, sans-serif;
+    font-family: articulat-cf, sans-serif;
 font-style: normal;
 color: grey;
 font-size: max(1vw, 12px);
 float: right;
 }
 .workbodyText{
-font-family: tuna, sans-serif;
+    font-family: depot-new-web, sans-serif; 
+    font-weight: 400; 
 color: black;
 opacity: 80%;
-font-size: max(1.25vw, 16px);
+font-size: max(1.5vw, 19px);
 }
+.companyLogo1{
+    height: max(7vw, 30px);
+    width: max(16vw, 75px);
+    position: absolute;
+}
+.vertLine{
+background-color: $offBlack;
+border-radius: 5px;
+}
+
+
+
 // END OF WORK EXP.

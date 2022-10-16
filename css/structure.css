@@ -5,6 +5,9 @@
 align-content: flex-start;
 text-align: center;
 }
+.fillerhalf{
+  height: 5px;
+}
 .fillerone{
   height: max(2vh, 20px);
 }
@@ -22,7 +25,7 @@ text-align: center;
 }
 .border-right-img{
   width: max(35vw, 230px);
-padding-top: max(30vh, 200px);
+margin-top: max(30vh, 200px);
 }
 .homeIcon{
   height: max(8.25vw, 75px);
