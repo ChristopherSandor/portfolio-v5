@@ -190,10 +190,9 @@ font-family: depot-new-web;
 font-weight: 100;
 font-style: normal;
 transition: 1s;
+text-decoration: none;
 }
-.bottomText:hover{
-    text-decoration: underline;
-}
+
 .bottomTextKeepUp{
     height: max(3vw, 50px);
     background-color: $offBlack;
@@ -250,3 +249,51 @@ border-radius: 5px;
 
 
 // END OF WORK EXP.
+
+// Contact Information
+
+.contactTitle{
+font-size: max(3vw, 25px);
+font-family: acier-bat-solid, sans-serif;
+color: $offBlack
+}
+.emailTitle{
+    font-size: max(2vw, 18px);
+    font-family: articulat-cf, sans-serif;
+    color: $offBlack
+}
+.emailAddress{
+    font-size: max(1.5vw, 16px);
+    font-family: depot-new-web; 
+    color: $offBlack
+}
+.emailAddress:hover{
+    color: $offBlack;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;    
+}
+a:link{
+    text-decoration: none;
+}
+.contactSocial{
+    height: max(2vw, 30px);
+    width: max(2vw, 30px);
+    transition: 0.3s;
+}
+
+#leftsocial{
+    float: right;
+}
+.WrapperIcon{
+    padding-top: 4.25vw;
+}
+
+.contactBody{
+    background-color: $offWhite2;
+}

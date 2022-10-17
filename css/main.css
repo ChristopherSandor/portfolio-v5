@@ -179,10 +179,7 @@
   font-weight: 100;
   font-style: normal;
   transition: 1s;
-}
-
-.bottomText:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .bottomTextKeepUp {
@@ -238,4 +235,57 @@
 .vertLine {
   background-color: #111111;
   border-radius: 5px;
+}
+
+.contactTitle {
+  font-size: max(3vw, 25px);
+  font-family: acier-bat-solid, sans-serif;
+  color: #111111;
+}
+
+.emailTitle {
+  font-size: max(2vw, 18px);
+  font-family: articulat-cf, sans-serif;
+  color: #111111;
+}
+
+.emailAddress {
+  font-size: max(1.5vw, 16px);
+  font-family: depot-new-web;
+  color: #111111;
+}
+
+.emailAddress:hover {
+  color: #111111;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.contactSocial {
+  height: max(2vw, 30px);
+  width: max(2vw, 30px);
+  transition: 0.3s;
+}
+
+#leftsocial {
+  float: right;
+}
+
+.WrapperIcon {
+  padding-top: 4.25vw;
+}
+
+.contactBody {
+  background-color: #c9c9c9;
 }/*# sourceMappingURL=main.css.map */
